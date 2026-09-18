@@ -37,3 +37,9 @@
 // console.log(ages);
 // console.log(adults);
 
+////////////REDUCE//////////////////
+let marks = [50, 60, 55];
+let totalMarks = marks.reduce(function(sum, mark){
+  return sum + mark;
+}, 0);
+console.log(totalMarks);
