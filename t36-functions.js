@@ -22,11 +22,17 @@
 // const result = multiply( 5, 6);
 // console.log(result);
 
-//functions expressions
-const sayHi = function(){
-  console.log("Say Hi");
-}
-sayHi();
+// function expressions
+// const sayHi = function(){
+//   console.log("Say Hi");
+// }
+// sayHi();
+
+// function goodBye(){
+//   return ("goodBye")
+// };
+// const result = goodBye();
+// console.log(result);
 
 
 

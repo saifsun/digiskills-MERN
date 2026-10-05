@@ -3,12 +3,12 @@
 // console.log("name =", name); //old way
 // console.log(`name = ${name}`); //template literals
 
-// let email = `Hello dear!
-// This is an email I am sending to you,
-// to remind you of me.
-// Thanks`;
+let email = `Hello dear!
+This is an email I am sending to you,
+to remind you of me.
+Thanks`;
 
-// console.log(email);
+console.log(email);
 
 
 //array destructure

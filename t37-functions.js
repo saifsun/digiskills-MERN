@@ -12,13 +12,16 @@
 
 //two parameters
 // const add = (a, b) => {
-//   return a*b;
+//   return a + b;
 // };
 // console.log(add(100, 5));
 
 //simplified arrow functions
 // const square = (n) => n*n;
 // console.log(square(5));
+
+// const multiply = (a,b) => a * b;
+// console.log(multiply(2,3));
 
 // const add = (a,b) => a + b;
 // console.log(add(100, 500));

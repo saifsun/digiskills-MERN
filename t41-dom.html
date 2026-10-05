@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">Welcome student</h1>
+  <h2 class="message">learn dom today</h2>
+  <ul id="topics">
+    <li>Selecting elements</li>
+    <li>Changing content</li>
+  </ul>
+  <button id="changeBtn">Change page</button>
+
+  <script>
+    // let title = document.getElementById("title");
+    // console.log(title);
+    const title = document.querySelector("#title");
+    const message = document.querySelector(".message");
+    console.log(message);
+
+    title.innerHTML = "Dom is working" //title changed on the page
+    message.innerHTML = "Learnt alot"
+    message.style.color = "red";
+    message.style.background = "yellow"; 
+  </script>
+  
+</body>
+</html>
